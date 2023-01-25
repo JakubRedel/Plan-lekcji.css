@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Rejestracja</title>
+</head>
+<body>
+    <div class="left"></div>
+    <div class="center">
+        <form action="mailto:programowanie@gmail.com" method="post">
+            <h1>Zarejestruj się</h1>
+            <input type="text" name="email" class="email"/>
+            <br>
+            <label for="email" class="red">Adres e-mail jest wymagany*</label>
+            <br>
+            <br>
+            <input type="password" name="password" class="password">
+            <br>
+            <label for="password" class="red">Hasło jest wymagane*</label>
+            <br>
+            <br>
+            <input type="password" name="password" class="password">
+            <br>
+            <label for="rpt password" class="red">Powtórz hasło*</label>
+            <br>
+            <br>
+            <select name="nr tel" >
+                <option value="polska">Polska +48</option>
+                <option value="WB">Wielka Brytania +44</option>
+            </select>
+            <input type="text" maxlength="9">
+            <br><br><br>
+            <button type="submit" class="finish"> <a href="zarejestruj" class="guzik">Zarejestruj</a></button>
+
+            <input type="checkbox" class="checkbox"><label for="checkbox" class="remember">Zapamiętaj mnie</label>
+            <input type="reset" value="Wyczyść" class="clear" />
+        </form>
+        
+    </div>
+    <div class="right"></div>
+</body>
+</html>
