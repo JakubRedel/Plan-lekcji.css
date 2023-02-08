@@ -1,0 +1,132 @@
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    font-family: sans-serif;
+}
+body{
+    width: 1500px;
+    background-color: #fff;
+    margin: 0;
+    padding-left: 0;
+}
+header{
+    background-color: rgb(207, 207, 207);
+    height: 50px;
+    padding-top: 23px;
+    padding-left: 15px;
+    width: 2000px;
+    /* width: 100%; */
+}
+.underline{
+    padding: 50px;
+}
+a{
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-decoration: underline;
+    font-size: 30px;
+    color: rgb(161, 159, 159);
+    transition: 0.3s;
+}
+
+a:hover{
+    transition: 0.3s;
+    text-decoration: underline black;
+    color: black;
+}
+h2{
+    font-size: 33px;
+}
+.MK{
+    float: left;
+    left: 111px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+}
+.red{
+    color: red;
+}
+h4{
+    color: rgb(81, 81, 252);
+}
+.nm{
+    font-size: 26px;
+    font-weight: bold;
+}
+h5{
+    font-size: 15px;
+}
+.card{
+    color: #fff;
+    background-position: center;
+    background-image: url(card.png);
+    background-repeat: repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 520px;
+    height: 260px;
+    position: absolute;
+    top: 350px;
+    left: 111px;
+    box-shadow: 8px 8px 24px -5px rgba(60, 24, 200, 1);
+}
+.inbox{
+    padding-left: 50px;
+}
+.prawy{
+    width: 600px;
+    height: 100px;
+    float: right;
+    position: relative;
+    right: 370px; 
+    position: absolute;
+    top: 220px;
+} 
+.lewy{
+    width: 600px;
+    height: 100px;
+    float: left;
+    position: relative;
+    left: 111px; 
+    position: absolute;
+    top: 600px;
+}
+footer{
+    position: absolute;
+    left: 0;
+    top: 1500px;
+    background-color: rgb(207, 207, 207);
+    height: 50px;
+    /* width: 1500px; */
+    width: 100%;
+    padding-top: 23px;
+    padding-left: 15px;
+}
+hr{
+    background-color: rgb(216, 216, 216);
+    position: absolute;
+    bottom: 22%;
+    left: 300px;
+    width: 1000px;
+    height: 1px;
+    transform: rotate(90deg);
+}
+h1{
+    font-size: 50px;
+    padding-left: 20px;
+}
+.a, .b, .c, .d, .e{
+    color: black;
+    font-weight: 100;
+    text-decoration: underline rgb(192, 192, 192);
+}
+header span{
+    position: relative;
+    top: 7px;
+    left: 1500px;
+}
