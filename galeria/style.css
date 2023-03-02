@@ -1,0 +1,152 @@
+body{
+    overflow: hidden;
+    background-color: #ebebeb;
+}
+.nav{
+    width: 100%;
+    height: 66px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 10px solid #cacaca;
+    transition: .6s;
+}
+.nav .logo{
+    width: 170px;
+    height: 66px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+h2{
+    z-index: 2;
+}
+.nav .logo .material-symbols-outlined{
+    position: absolute;
+    top: 22px;
+    right: 33px;
+
+}
+.nav h1{
+    margin-left: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+.main{
+    width: 999px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    border: 10px solid #cacaca;
+    border-radius: 6px;
+    transition: .6s;
+}
+.main .left{
+    width: 333px;
+    height: 450px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    z-index: 3;
+    text-align: center;
+    border-top: 3px solid #cacaca;
+    transition: .4s;
+}
+.main .middle{
+    width: 333px;
+    height: 450px;
+    position: absolute;
+    left: 332px;
+    top: 0;
+    z-index: 3;
+    text-align: center;
+    border-left: 3px solid #cacaca;
+    border-top: 3px solid #cacaca;
+    border-right: 3px solid #cacaca;
+    transition: .4s;
+}
+.main .right{
+    width: 333px;
+    height: 450px;
+    position: absolute;
+    left: 668px;
+    top: 0;
+    z-index: 3;
+    text-align: center;
+    border-top: 3px solid #cacaca;
+    transition: .4s;
+}
+.main .left img{
+    position: absolute;
+    right: 6px;
+    left: 0px;
+    top: 0px;
+    width: 333px;
+    height: 200px;
+    z-index: 4;
+}
+.main .middle img{
+    position: absolute;
+    right: 6px;
+    left: 0px;
+    top: 0px;
+    width: 333px;
+    height: 200px;
+    z-index: 4;
+}
+.main .right img{
+    position: absolute;
+    right: 0;
+    left: 2px;
+    top: 0px;
+    width: 330px;
+    height: 200px;
+    z-index: 4;
+}
+.main h2{
+    position: absolute;
+    bottom: 0;
+    font-family: 'Comfortaa', cursive;
+}
+.nav:hover{
+    background-color: #dbdbdb;
+}
+.left:hover {
+    background-color: #dbdbdb;
+
+}
+.middle:hover{
+    background-color: #dbdbdb;
+}
+.right:hover{
+    background-color: #dbdbdb;
+}
+.w1b{
+    position: absolute;
+    bottom: 160px;
+    width: 40px;
+    height: 40px;
+}
+.w2b{
+    position: absolute;
+    bottom: 160px;
+    width: 40px;
+    height: 40px;
+}
+.w3b{
+    position: absolute;
+    bottom: 160px;
+    width: 40px;
+    height: 40px;
+}
+.material-symbols-outlined{
+    color: black;
+    transition: .6s;
+}
+.main:hover{
+    border: 10px solid #ffffff;
+    transition: .6s;
+}
