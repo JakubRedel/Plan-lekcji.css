@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav{
+    background-color: #373c58;
+    width: 100%;
+    height: 11vh;
+    margin: 0;
+    padding: 0;
+}
+.left{
+    width: 33%;
+    height: 10vh;
+    background-color: #373c58;
+}
+.left h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 58px;
+    padding-top: 1.8vh;
+    padding-left: 1.8vw;
+    -webkit-text-stroke: 1px #1F2232; 
+    font-family: sans; color: #fff;
+}
+.middle{
+    width: 34%;
+    height: 10vh;
+    background-color: #373c58;
+    position: fixed;
+    top: 0;
+    left: 33vw;
+    display: inline-block;
+}
+.middle form {
+    width: 100%;
+    height: 10vh;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    padding-top: 2vh;  
+}
+.middle form p{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.middle form .usun{
+    width: 8vw;
+    height: 5vh;
+}
+.middle form .pods{
+    width: 10vw;
+    height: 5vh;
+}
+.one label span{
+    color: #fff;
+}
+.two label span{
+    color: #fff;
+}
+.one{
+    width: 11vw;
+    height: 5vh;
+    border: 2px solid #fff;
+}
+.two{
+    width: 13vw;
+    height: 5vh;
+    border: 2px solid #fff;
+}
+.right{
+    width: 33%;
+    height: 10vh;
+    background-color: #373c58;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.right span{
+    margin-top: 2.8vh;
+    margin-left: 23vw;
+    color: #fff;
+    font-size: 40px;
+}
+section .nocart{
+    width: 35vw;
+    height: 750px;
+    background-color: #373c58;
+    border: 7px solid #1F2232;
+    text-align: left;
+    margin-top: 3vh;
+}
+section .nocart img{
+    border: 7px solid #1F2232;
+  }
+  section .nocart p{
+    color: #fff;
+    font-size: 22px;
+    padding: 15px;
+  }
+  section .nocart h2{
+    color: #fff;
+    font-size: 44px;
+    padding: 15px;
+  }
+  section .nocart h3{
+    color: #fff;
+    font-size: 33px;
+    padding: 15px;
+  }
+  section .nocart button {
+    width: 100px;
+    height: 6vh;
+    float: left;
+    margin-top: 5%;
+  }
+  section .nocart button a{
+    color: #1F2232;
+    font-size: 22px;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+  }
+  section{
+    display: flex;
+    justify-content: space-around;    
+  }
